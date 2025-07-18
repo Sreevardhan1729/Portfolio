@@ -21,13 +21,13 @@ My journey in technology is driven by a passion for problem-solving and a desire
 
 | Category                | Technologies                                                                                   |
 | ----------------------- | ---------------------------------------------------------------------------------------------- |
-| **Languages**           | `JavaScript` `TypeScript` `Python` `Java` `SQL`                                                |
-| **Frameworks & Libraries** | `React` `Next.js` `Node.js` `Express` `Django` `FastAPI`                                       |
+| **Languages**           | `JavaScript` `C++` `Python` `HTML` `CSS` `Kotlin` `SQL`                                                |
+| **Frameworks & Libraries** | `React` `Next.js` `Node.js` `Express` `Django` `FastAPI` `Flask`                                       |
 | **Machine Learning**    | `TensorFlow` `PyTorch` `Scikit-learn` `Keras` `XGBoost` `LightGBM`                               |
 | **Data Science**        | `NumPy` `Pandas` `Matplotlib` `Seaborn` `Plotly` `Jupyter`                                       |
-| **AI & Deep Learning**  | `Computer Vision` `NLP` `OpenCV` `NLTK` `spaCy` `Transformers`                                   |
-| **Databases**           | `PostgreSQL` `MongoDB` `Redis` `Supabase`                                                      |
-| **Cloud & DevOps**      | `AWS` `Vercel` `Docker` `GitHub Actions` `Terraform`                                             |
+| **AI & Deep Learning**  | `Computer Vision` `NLP` `OpenCV` `NLTK` `spaCy` `Transformers` `RAG`                                   |
+| **Databases**           | `PostgreSQL` `MongoDB` `Redis` `SQLite3`                                                      |
+| **Cloud & DevOps**      | `AWS` `Vercel` `Docker` `GitHub Actions` `Render`                                             |
 
 ---
 

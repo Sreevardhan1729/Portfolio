@@ -68,7 +68,7 @@ export function About() {
                     Experience
                   </h4>
                   <p className="text-blue-600 dark:text-blue-400 font-medium">
-                    5+ Years
+                    {portfolioData.about.experience}
                   </p>
                 </div>
                 <div>
@@ -76,7 +76,7 @@ export function About() {
                     Projects Completed
                   </h4>
                   <p className="text-blue-600 dark:text-blue-400 font-medium">
-                    50+
+                    {portfolioData.about.projectsCompleted}
                   </p>
                 </div>
               </div>

@@ -42,6 +42,7 @@ const techIcons: Record<string, any> = {
   Express: Server,
   Django: Server,
   FastAPI: Server,
+  Flask: Server,
 
   // Machine Learning
   TensorFlow: Brain,
@@ -66,19 +67,20 @@ const techIcons: Record<string, any> = {
   NLTK: MessageSquare,
   spaCy: MessageSquare,
   Transformers: Brain,
+  RAG: Brain,
 
   // Databases
   PostgreSQL: Database,
   MongoDB: Database,
   Redis: Database,
-  Supabase: Database,
+  SQLite3: Database,
 
   // Cloud & DevOps
   AWS: Cloud,
   Vercel: Cloud,
   Docker: Cloud,
   "GitHub Actions": Cloud,
-  Terraform: Cloud,
+  Render: Cloud,
 };
 
 const containerVariants = {
