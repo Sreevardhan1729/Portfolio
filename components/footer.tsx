@@ -1,6 +1,7 @@
 "use client"
 
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { Github, Linkedin } from "lucide-react";
+import LeetcodeIcon from "@/components/ui/leetcode-icon";
 import { portfolioData } from "@/lib/portfolio-data"
 
 export function Footer() {
@@ -34,12 +35,12 @@ export function Footer() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href={portfolioData.personal.social.twitter}
+              href={portfolioData.personal.social.leetcode}
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
             >
-              <Twitter className="w-6 h-6" />
+              <LeetcodeIcon className="w-6 h-6" />
             </a>
           </div>
         </div>

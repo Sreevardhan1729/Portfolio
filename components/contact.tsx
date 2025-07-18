@@ -5,11 +5,11 @@ import { useState } from "react";
 import {
   Github,
   Linkedin,
-  Twitter,
   Mail,
   Send,
   CheckCircle,
 } from "lucide-react";
+import LeetcodeIcon from "@/components/ui/leetcode-icon";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -152,12 +152,12 @@ export function Contact() {
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a
-                  href={portfolioData.personal.social.twitter}
+                  href={portfolioData.personal.social.leetcode}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-12 h-12 bg-blue-400 text-white rounded-lg transition-colors hover:bg-blue-500"
+                  className="flex items-center justify-center w-12 h-12 bg-black text-white rounded-lg transition-colors hover:bg-gray-800"
                 >
-                  <Twitter className="w-6 h-6" />
+                  <LeetcodeIcon className="w-6 h-6" />
                 </a>
               </div>
             </div>
