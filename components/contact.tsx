@@ -56,7 +56,7 @@ export function Contact() {
     setIsSubmitting(true);
     setErrors({});
 
-    // Simulate form validation
+    // Form validation
     const newErrors: { [key: string]: string } = {};
     if (!formData.name.trim()) newErrors.name = "Name is required";
     if (!formData.email.trim()) newErrors.email = "Email is required";
@@ -68,18 +68,32 @@ export function Contact() {
       return;
     }
 
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    try {
+      const response = await fetch(
+        process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT!,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
-    console.log("Form submitted:", formData);
-    setIsSubmitted(true);
-    setIsSubmitting(false);
-
-    // Reset form after success animation
-    setTimeout(() => {
-      setFormData({ name: "", email: "", message: "" });
-      setIsSubmitted(false);
-    }, 3000);
+      if (response.ok) {
+        setIsSubmitted(true);
+        setTimeout(() => {
+          setFormData({ name: "", email: "", message: "" });
+          setIsSubmitted(false);
+        }, 3000);
+      } else {
+        setErrors({ form: "An error occurred. Please try again." });
+      }
+    } catch (error) {
+      setErrors({ form: "An error occurred. Please try again." });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (
