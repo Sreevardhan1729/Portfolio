@@ -1,8 +1,8 @@
 # Sree Vardhan Reddy | Software Engineer & Data Scientist
 
-[![Linkedin Badge](https://img.shields.io/badge/-Sree%20Vardhan%20Reddy-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sree-vardhan-reddy-g/)](https://www.linkedin.com/in/sree-vardhan-reddy-g/)
-[![Github Badge](https://img.shields.io/badge/-itssreevardhan-black?style=flat-square&logo=github&logoColor=white&link=https://github.com/itssreevardhan)](https://github.com/itssreevardhan)
-[![Leetcode Badge](https://img.shields.io/badge/-itssreevardhan-yellow?style=flat-square&logo=leetcode&logoColor=white&link=https://leetcode.com/u/itssreevardhan/)](https://leetcode.com/u/itssreevardhan/)
+[![Linkedin Badge](https://img.shields.io/badge/-Sree%20Vardhan%20Reddy-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sreevardhanreddy/)](https://www.linkedin.com/in/sreevardhanreddy/)
+[![Github Badge](https://img.shields.io/badge/-Sreevardhan1729-black?style=flat-square&logo=github&logoColor=white&link=https://github.com/Sreevardhan1729)](https://github.com/Sreevardhan1729)
+[![Leetcode Badge](https://img.shields.io/badge/-Vardhan1729-yellow?style=flat-square&logo=leetcode&logoColor=white&link=https://leetcode.com/u/Vardhan1729/)](https://leetcode.com/u/Vardhan1729/)
 [![Mail Badge](https://img.shields.io/badge/-itssreevardhan@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:itssreevardhan@gmail.com)](mailto:itssreevardhan@gmail.com)
 
 ---
@@ -13,7 +13,7 @@ I am a final-year Computer Science student at the Indian Institute of Informatio
 
 My journey in technology is driven by a passion for problem-solving and a desire to build meaningful products. I am always eager to learn new technologies and methodologies to improve my skill set and tackle complex challenges, with a strong interest in AI, particularly in Natural Language Processing and Computer Vision.
 
-**This repository hosts the source code for my personal portfolio website. [You can view it live here!](https://your-live-demo-link.com)**
+**This repository hosts the source code for my personal portfolio website. [You can view it live here!](https://portfolio-navy-seven-uh52ltvm6p.vercel.app/)**
 
 ---
 
@@ -55,8 +55,8 @@ My journey in technology is driven by a passion for problem-solving and a desire
 
 | Project                               | Description                                                                                                                      | Technologies                                               |
 | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Intelligent RAG Agent**             | Architected a multi-source RAG system to answer queries from PDFs, websites, and text.                                           | `Python` `Flask` `LangChain` `Docker` `AWS` `CI/CD`        |
 | **Underwater Fish Disease Detection** | Built a Vision Transformer-based model to detect fish diseases from underwater videos with 90% accuracy.                           | `Python` `Computer Vision` `PyTorch` `OpenCV`              |
-| **AI-Driven Wine Quality Analyzer**   | Developed a complete ML pipeline for real-time wine quality prediction, deployed as a Flask web app on AWS EC2.                    | `Python` `Flask` `ML` `Docker` `AWS` `CI/CD`               |
 | **Smart AI Job Matcher**              | Created an AI-powered skill-matching system to rank job descriptions based on resume similarity.                                   | `Python` `Flask` `NLP` `React` `Vercel` `Render`           |
 | **BookBridge: Book Exchange Platform**| Designed and led the development of a book exchange platform with real-time chat using Django and SQL.                             | `Python` `Django` `SQL` `Google Books API`                 |
 | **GuardianPulse: Family Location**    | Developed a secure, real-time location-sharing mobile app for families using Kotlin, Google Login, and Firebase.                   | `Kotlin` `Firebase` `Google Maps API`                      |

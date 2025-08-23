@@ -66,7 +66,7 @@ export function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "top-4 mx-auto w-fit rounded-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg"
-          : "top-0 w-full rounded-none bg-white dark:bg-gray-900"
+          : "top-0 w-full rounded-none bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800"
       }`}
     >
       <div
@@ -80,7 +80,7 @@ export function Navbar() {
             className="font-bold text-xl cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             onClick={() => scrollToSection("hero")}
           >
-            AJ
+            Axon
           </div>
 
           {/* Desktop Navigation */}
