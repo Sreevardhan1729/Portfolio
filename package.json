@@ -46,7 +46,7 @@
     "framer-motion": "^12.23.6",
     "input-otp": "latest",
     "lucide-react": "^0.454.0",
-    "next": "15.2.4",
+    "next": "^15.3.2",
     "next-themes": "latest",
     "react": "^19",
     "react-day-picker": "latest",
@@ -67,5 +67,8 @@
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["sharp"]
   }
 }
