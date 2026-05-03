@@ -6,10 +6,9 @@ import { Button } from "@/components/ui/button";
 import { useScrollSpy } from "@/hooks/use-scroll-spy";
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 import { useTheme } from "next-themes";
-import { motion } from "framer-motion";
-
 const navItems = [
   { id: "about", label: "About" },
+  { id: "education", label: "Education" },
   { id: "experience", label: "Experience" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
@@ -61,9 +60,8 @@ export function Navbar() {
   };
 
   return (
-    <motion.nav
-      layout
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav
+      className={`fixed left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "top-4 mx-auto w-fit rounded-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-lg"
           : "top-0 w-full rounded-none bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800"
@@ -146,7 +144,7 @@ export function Navbar() {
           </div>
         )}
       </div>
-    </motion.nav>
+    </nav>
   );
 }
 

@@ -21,9 +21,8 @@ const skillIcons: Record<string, any> = {
   Languages: Code,
   "Frameworks & Libraries": Layers,
   "Back-End & APIs": Server,
-  "Machine Learning": Brain,
-  "AI & Deep Learning": Eye,
-  "Data Science": BarChart3,
+  "AI & Machine Learning": Brain,
+  "Data & Analytics": BarChart3,
   Databases: Database,
   "Cloud & DevOps": Cloud,
 };
@@ -53,25 +52,17 @@ const techIcons: Record<string, any> = {
   Caching: Server,
   "Nx Monorepo": Layers,
 
-  // Machine Learning
-  "Scikit-learn": Brain,
-  PyTorch: Brain,
-  TensorFlow: Brain,
-  Keras: Brain,
-  XGBoost: Brain,
-  LightGBM: Brain,
-
-  // AI & Deep Learning
+  // AI & Machine Learning
   NLP: MessageSquare,
   LangChain: Brain,
+  PyTorch: Brain,
+  "Scikit-learn": Brain,
+  TensorFlow: Brain,
   "Computer Vision": Eye,
   OpenCV: Eye,
-  NLTK: MessageSquare,
-  spaCy: MessageSquare,
-  Transformers: Brain,
   RAG: Brain,
 
-  // Data Science
+  // Data & Analytics
   NumPy: BarChart3,
   Pandas: BarChart3,
   Matplotlib: BarChart3,
