@@ -98,12 +98,14 @@ export function Achievements() {
                     <IconComponent className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-1">
                       {achievement.title}
                     </h3>
-                    <time className="text-sm text-blue-600 dark:text-blue-400 font-medium">
-                      {achievement.date}
-                    </time>
+                    {achievement.highlight && (
+                      <span className="text-lg font-bold text-blue-600 dark:text-blue-400">
+                        {achievement.highlight}
+                      </span>
+                    )}
                   </div>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
