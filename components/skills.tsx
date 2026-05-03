@@ -20,19 +20,21 @@ import { MotionDiv } from "./ui/animation";
 const skillIcons: Record<string, any> = {
   Languages: Code,
   "Frameworks & Libraries": Layers,
+  "Back-End & APIs": Server,
   "Machine Learning": Brain,
-  "Data Science": BarChart3,
   "AI & Deep Learning": Eye,
+  "Data Science": BarChart3,
   Databases: Database,
   "Cloud & DevOps": Cloud,
 };
 
 const techIcons: Record<string, any> = {
   // Languages
-  JavaScript: Terminal,
   TypeScript: Terminal,
+  JavaScript: Terminal,
   Python: Terminal,
-  Java: Terminal,
+  "C++": Terminal,
+  Kotlin: Terminal,
   SQL: Database,
 
   // Frameworks & Libraries
@@ -41,16 +43,33 @@ const techIcons: Record<string, any> = {
   "Node.js": Server,
   Express: Server,
   Django: Server,
-  FastAPI: Server,
   Flask: Server,
+  FastAPI: Server,
+
+  // Back-End & APIs
+  REST: Server,
+  "JWT Auth": Server,
+  "ETL/Batch Jobs": Server,
+  Caching: Server,
+  "Nx Monorepo": Layers,
 
   // Machine Learning
-  TensorFlow: Brain,
-  PyTorch: Brain,
   "Scikit-learn": Brain,
+  PyTorch: Brain,
+  TensorFlow: Brain,
   Keras: Brain,
   XGBoost: Brain,
   LightGBM: Brain,
+
+  // AI & Deep Learning
+  NLP: MessageSquare,
+  LangChain: Brain,
+  "Computer Vision": Eye,
+  OpenCV: Eye,
+  NLTK: MessageSquare,
+  spaCy: MessageSquare,
+  Transformers: Brain,
+  RAG: Brain,
 
   // Data Science
   NumPy: BarChart3,
@@ -60,26 +79,19 @@ const techIcons: Record<string, any> = {
   Plotly: BarChart3,
   Jupyter: BarChart3,
 
-  // AI & Deep Learning
-  "Computer Vision": Eye,
-  NLP: MessageSquare,
-  OpenCV: Eye,
-  NLTK: MessageSquare,
-  spaCy: MessageSquare,
-  Transformers: Brain,
-  RAG: Brain,
-
   // Databases
-  PostgreSQL: Database,
   MongoDB: Database,
+  PostgreSQL: Database,
   Redis: Database,
   SQLite3: Database,
 
   // Cloud & DevOps
-  AWS: Cloud,
-  Vercel: Cloud,
   Docker: Cloud,
+  "AWS (EC2)": Cloud,
+  Git: Cloud,
   "GitHub Actions": Cloud,
+  Linux: Terminal,
+  Vercel: Cloud,
   Render: Cloud,
 };
 
